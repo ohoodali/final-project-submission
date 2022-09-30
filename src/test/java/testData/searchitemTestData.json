@@ -1,0 +1,20 @@
+{
+  "searchitem" : "Blue",
+  "allproducts" : "ALL PRODUCTS",
+  "searchedprodut" : "SEARCHED PRODUCTS",
+  "sizeOfAddedProducts" : "2",
+  "firstproduct" : "Men Tshirt",
+  "secondproduct" :"Summer White Top",
+  "firstprice" : "Rs. 400",
+  "firstquantity": "1",
+  "secondprice": "Rs. 400",
+  "secondtotal" :  "Rs. 400",
+  "secondquantity":"1",
+  "searchProduct" : "Blue Top",
+  "SignupLogin": "Signup / Login",
+ "logintoyouraccount": "Login to your account",
+ "validemail": "ertr@gmail.com",
+  "vaildpassword": "111111",
+  "invalidemail": "msohood@gmail.com",
+  "invalidpassword": "111111"
+}
