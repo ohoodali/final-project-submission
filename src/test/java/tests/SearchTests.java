@@ -23,9 +23,6 @@ public class SearchTests extends BaseTests_Parent_ٍSearch{
     String invalidemail;
     String invalidpassword;
 
-
-
-
     @BeforeClass
     public void loadTestData() {
         String testDataJsonFile = "searchitemTestData.json" ;
@@ -41,9 +38,7 @@ public class SearchTests extends BaseTests_Parent_ٍSearch{
         invalidpassword=(String) getJsonValueByKey(testDataJsonFile, "invalidpassword");
 
 
-
     }
-
 
     @Test
     public void testSearceProducatWithBlueKeyword ()
@@ -52,13 +47,31 @@ public class SearchTests extends BaseTests_Parent_ٍSearch{
         navigationBarPage.clickProducat();
         SearchPage search = new SearchPage(driver);
         Assert.assertEquals(search.allProducatShown(), allproducts,"ALL PRODUCTS should be shown");
-        search.searchProductbyname("Blue");
+        search.searchProductbyname("blue top");
         Assert.assertEquals( search.AllSharedDisplayed(), searchedprodut,"SEARCHED PRODUCTS should be shown");
+
+
+    }
+    @Test
+    public void testAllRealtedShown ()
+    {
+        NavigationBarPage navigationBarPage = new NavigationBarPage(driver);
+        navigationBarPage.clickProducat();
+        SearchPage search = new SearchPage(driver);
+        Assert.assertEquals(search.allProducatShown(), allproducts,"ALL PRODUCTS should be shown");
+        search.searchProductbyname("blue");
         search.isKeyWordInProducatTitles(searchitem);
-        //Assert.assertEquals(search.SearchItem(),"Blue Top");
 
-
-
+    }
+    @Test
+    public void testForSeachtopblue ()
+    {
+        NavigationBarPage navigationBarPage = new NavigationBarPage(driver);
+        navigationBarPage.clickProducat();
+        SearchPage search = new SearchPage(driver);
+        Assert.assertEquals(search.allProducatShown(), allproducts,"ALL PRODUCTS should be shown");
+        search.searchProductbyname("Blue Top");
+        Assert.assertEquals(search.SearchItem(),"Blue Top","Blue Top should be shown");
 
     }
 
