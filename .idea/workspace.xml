@@ -4,28 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dd4a38a-2280-43f9-9ca8-d1cd29dc03dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fileReaderManager/ReadFromFiles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/CardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/NavigationBarPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ProductsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/propertyFiles/configData.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testData/searchitemTestData.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/AddProductToCardTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTests_Parent_ٍSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SearchTests.java" afterDir="false" />
+    <list default="true" id="8dd4a38a-2280-43f9-9ca8-d1cd29dc03dd" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testData/searchitemTestData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testData/searchitemTestData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AddProductToCardTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AddProductToCardTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SearchTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -75,7 +64,7 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest">
+  <component name="RunManager" selected="TestNG.AddProductToCardTests">
     <configuration name="AddProductToCardTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="final-project-submission" />
       <extension name="coverage">
@@ -93,7 +82,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddProductToCardTests.cheekInOneTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddProductToCardTests.testAddOneProductsToCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="final-project-submission" />
       <extension name="coverage">
         <pattern>
@@ -103,7 +92,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.AddProductToCardTests" />
-      <option name="METHOD_NAME" value="cheekInOneTest" />
+      <option name="METHOD_NAME" value="testAddOneProductsToCart" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -111,7 +100,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddProductToCardTests.testAddTwoProductsPricesToCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="final-project-submission" />
       <extension name="coverage">
         <pattern>
@@ -120,32 +109,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="tests.AddProductToCardTests" />
+      <option name="METHOD_NAME" value="testAddTwoProductsPricesToCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ResfulBookerApisTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="final-project-submission" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTests" />
-      <option name="MAIN_CLASS_NAME" value="apiTests.ResfulBookerApisTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddProductToCardTests.testAddTwoProductsQuantityToCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="final-project-submission" />
       <extension name="coverage">
         <pattern>
@@ -154,8 +127,27 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.SearchTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="tests.AddProductToCardTests" />
+      <option name="METHOD_NAME" value="testAddTwoProductsQuantityToCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddProductToCardTests.testAddTwoProductsToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="final-project-submission" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AddProductToCardTests" />
+      <option name="METHOD_NAME" value="testAddTwoProductsToCart" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -164,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.AddProductToCardTests" />
-        <item itemvalue="TestNG.SearchTests" />
-        <item itemvalue="TestNG.AddProductToCardTests.cheekInOneTest" />
-        <item itemvalue="TestNG.ResfulBookerApisTests" />
+        <item itemvalue="TestNG.AddProductToCardTests.testAddTwoProductsQuantityToCart" />
+        <item itemvalue="TestNG.AddProductToCardTests.testAddTwoProductsPricesToCart" />
+        <item itemvalue="TestNG.AddProductToCardTests.testAddOneProductsToCart" />
+        <item itemvalue="TestNG.AddProductToCardTests.testAddTwoProductsToCart" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +173,14 @@
       <option name="presentableId" value="Default" />
       <updated>1664199625633</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1664525885060</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664525885060</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +193,30 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/SearchTests.java</url>
+          <line>55</line>
+          <properties class="tests.SearchTests" method="testAllRealtedShown">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/AddProductToCardTests.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
