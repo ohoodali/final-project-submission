@@ -4,6 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class CardPage extends BasePage {
+
+
+    private By columnnumber = By.xpath("//table[@class=\"table table-condensed\"]/thead/tr/td");
     By allCartRows = By.className("cart_product");
     private By firstproduct = By.xpath("//a[@href=\"/product_details/2\"]");
     private By secondproduct = By.xpath("//a[@href=\"/product_details/6\"]");
@@ -18,6 +21,16 @@ public class CardPage extends BasePage {
     public CardPage(WebDriver driver) {
         super(driver);
     }
+   /* public String getColumNumber ()
+    {
+
+        String columnumber= getTextOfElement(columnnumber);
+        return columnumber;
+    }*/
+   public int getSizeColumnNumber()
+   {
+       return locateListOfElement(columnnumber).size();
+   }
     public int getSizeOfAddedProducts ()
     {
         return locateListOfElement(allCartRows).size();
@@ -59,17 +72,16 @@ public class CardPage extends BasePage {
         String secondto= getTextOfElement(secondtotal);
         return secondto;
     }
-    public int getFirstquantity()
+    public String getFirstquantity()
     {
 
-        int firstquintiy= Integer.parseInt(getTextOfElement(firstquantity));
+        String firstquintiy= getTextOfElement(firstquantity);
         return firstquintiy;
     }
 
-    public int getSecondQuantity()
+    public String getSecondQuantity()
     {
-        int  secondquintiy= Integer.parseInt(getTextOfElement(secondquantity));
+        String  secondquintiy= getTextOfElement(secondquantity);
         return secondquintiy;
     }
-
 }
