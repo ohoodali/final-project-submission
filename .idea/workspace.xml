@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dd4a38a-2280-43f9-9ca8-d1cd29dc03dd" name="Changes" comment="Second commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
+    <list default="true" id="8dd4a38a-2280-43f9-9ca8-d1cd29dc03dd" name="Changes" comment="Thrid commit">
       <change beforePath="$PROJECT_DIR$/src/test/java/testData/searchitemTestData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testData/searchitemTestData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AddProductToCardTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AddProductToCardTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SearchTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +61,7 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AddProductToCardTests.testColumnNumber">
+  <component name="RunManager" selected="TestNG.SearchTests.testAllRealtedShown">
     <configuration name="AddProductToCardTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="final-project-submission" />
       <extension name="coverage">
@@ -119,7 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddProductToCardTests.testProductsQuantity" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTests.testAllRealtedShown" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="final-project-submission" />
       <extension name="coverage">
         <pattern>
@@ -128,8 +124,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AddProductToCardTests" />
-      <option name="METHOD_NAME" value="testProductsQuantity" />
+      <option name="MAIN_CLASS_NAME" value="tests.SearchTests" />
+      <option name="METHOD_NAME" value="testAllRealtedShown" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -137,7 +133,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddProductToCardTests.testProductsTotalPrices" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTests.testSearceProducatWithBlueKeyword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="final-project-submission" />
       <extension name="coverage">
         <pattern>
@@ -146,8 +142,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AddProductToCardTests" />
-      <option name="METHOD_NAME" value="testProductsTotalPrices" />
+      <option name="MAIN_CLASS_NAME" value="tests.SearchTests" />
+      <option name="METHOD_NAME" value="testSearceProducatWithBlueKeyword" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -157,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearchTests.testAllRealtedShown" />
+        <item itemvalue="TestNG.SearchTests.testSearceProducatWithBlueKeyword" />
         <item itemvalue="TestNG.AddProductToCardTests.testColumnNumber" />
         <item itemvalue="TestNG.AddProductToCardTests" />
         <item itemvalue="TestNG.AddProductToCardTests.testAddOneProductsToCart" />
-        <item itemvalue="TestNG.AddProductToCardTests.testProductsQuantity" />
-        <item itemvalue="TestNG.AddProductToCardTests.testProductsTotalPrices" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665060372602</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Thrid commit">
+      <created>1665730522629</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665730522629</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,7 +208,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="Second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
+    <MESSAGE value="Thrid commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thrid commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
