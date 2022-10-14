@@ -13,11 +13,9 @@ public class AddProductToCardTests extends BaseTests_Parent_ٍSearch{
     int sizeOfAddedProducts;
     String firstproduct;
     String secondproduct;
-
     String firstprice;
     String firstquantity;
     String firsttotal;
-
     String secondprice;
     String secondtotal;
     String  secondquantity;
@@ -26,7 +24,6 @@ public class AddProductToCardTests extends BaseTests_Parent_ٍSearch{
     public void loadTestData() {
         String testDataJsonFile = "searchitemTestData.json" ;
         sizeOfAddedProducts = Integer.parseInt((String) getJsonValueByKey(testDataJsonFile, "sizeOfAddedProducts"));
-
         firstproduct = (String) getJsonValueByKey(testDataJsonFile, "firstproduct");
         secondproduct = (String) getJsonValueByKey(testDataJsonFile, "secondproduct");
         firstprice = (String) getJsonValueByKey(testDataJsonFile, "firstprice");
