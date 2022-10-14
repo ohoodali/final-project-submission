@@ -30,11 +30,10 @@ public class AddProductToCardTests extends BaseTests_Parent_ٍSearch{
         firstproduct = (String) getJsonValueByKey(testDataJsonFile, "firstproduct");
         secondproduct = (String) getJsonValueByKey(testDataJsonFile, "secondproduct");
         firstprice = (String) getJsonValueByKey(testDataJsonFile, "firstprice");
-
         firsttotal = (String) getJsonValueByKey(testDataJsonFile, "firsttotal");
         secondprice = (String) getJsonValueByKey(testDataJsonFile, "secondprice");
         secondtotal = (String) getJsonValueByKey(testDataJsonFile, "secondtotal");
-       firstquantity = (String) getJsonValueByKey(testDataJsonFile,"firstquantity");
+        firstquantity = (String) getJsonValueByKey(testDataJsonFile,"firstquantity");
         secondquantity = (String) getJsonValueByKey(testDataJsonFile,"secondquantity");
         columnumber = Integer.parseInt((String) getJsonValueByKey(testDataJsonFile, "columnumber"));
 

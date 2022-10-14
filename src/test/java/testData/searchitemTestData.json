@@ -1,7 +1,6 @@
 {
   "searchitem" : "blue",
   "StylishDress" : "Stylish Dress",
-  "bluetop":"blue Top",
   "allproducts" : "ALL PRODUCTS",
   "searchedprodut" : "SEARCHED PRODUCTS",
   "sizeOfAddedProducts" : "2",
@@ -20,6 +19,5 @@
   "vaildpassword": "111111",
   "invalidemail": "msohood@gmail.com",
   "invalidpassword": "111111",
- "columnumber":"6",
-  "blue": "blue"
+ "columnumber":"6"
 }
