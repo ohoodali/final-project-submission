@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dd4a38a-2280-43f9-9ca8-d1cd29dc03dd" name="Changes" comment="first commit">
+    <list default="true" id="8dd4a38a-2280-43f9-9ca8-d1cd29dc03dd" name="Changes" comment="Second commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CardPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testData/searchitemTestData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testData/searchitemTestData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/AddProductToCardTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AddProductToCardTests.java" afterDir="false" />
@@ -64,7 +65,7 @@
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AddProductToCardTests">
+  <component name="RunManager" selected="TestNG.AddProductToCardTests.testColumnNumber">
     <configuration name="AddProductToCardTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="final-project-submission" />
       <extension name="coverage">
@@ -100,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddProductToCardTests.testAddTwoProductsPricesToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddProductToCardTests.testColumnNumber" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="final-project-submission" />
       <extension name="coverage">
         <pattern>
@@ -110,7 +111,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.AddProductToCardTests" />
-      <option name="METHOD_NAME" value="testAddTwoProductsPricesToCart" />
+      <option name="METHOD_NAME" value="testColumnNumber" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -118,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddProductToCardTests.testAddTwoProductsQuantityToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddProductToCardTests.testProductsQuantity" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="final-project-submission" />
       <extension name="coverage">
         <pattern>
@@ -128,7 +129,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.AddProductToCardTests" />
-      <option name="METHOD_NAME" value="testAddTwoProductsQuantityToCart" />
+      <option name="METHOD_NAME" value="testProductsQuantity" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -136,7 +137,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddProductToCardTests.testAddTwoProductsToCart" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddProductToCardTests.testProductsTotalPrices" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="final-project-submission" />
       <extension name="coverage">
         <pattern>
@@ -146,7 +147,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.AddProductToCardTests" />
-      <option name="METHOD_NAME" value="testAddTwoProductsToCart" />
+      <option name="METHOD_NAME" value="testProductsTotalPrices" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -156,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddProductToCardTests.testColumnNumber" />
         <item itemvalue="TestNG.AddProductToCardTests" />
-        <item itemvalue="TestNG.AddProductToCardTests.testAddTwoProductsQuantityToCart" />
-        <item itemvalue="TestNG.AddProductToCardTests.testAddTwoProductsPricesToCart" />
         <item itemvalue="TestNG.AddProductToCardTests.testAddOneProductsToCart" />
-        <item itemvalue="TestNG.AddProductToCardTests.testAddTwoProductsToCart" />
+        <item itemvalue="TestNG.AddProductToCardTests.testProductsQuantity" />
+        <item itemvalue="TestNG.AddProductToCardTests.testProductsTotalPrices" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664525885060</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Second commit">
+      <created>1665060372602</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665060372602</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,23 +204,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/SearchTests.java</url>
-          <line>55</line>
-          <properties class="tests.SearchTests" method="testAllRealtedShown">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/tests/AddProductToCardTests.java</url>
-          <line>66</line>
+          <line>76</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

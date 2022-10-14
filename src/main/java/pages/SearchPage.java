@@ -14,7 +14,7 @@ public class SearchPage extends BasePage{
 
     private By searsheditem = By.xpath("//div[@class=\"product-information\"]/h2");
 
-    private By searchbuletop = By.cssSelector("overlay-content>p");
+    private By StylishDress = By.cssSelector(".overlay-content>p");
 
     private By allsearcheditem = By.xpath("//h2[@class=\"title text-center\"]");
 

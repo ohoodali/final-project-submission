@@ -22,6 +22,8 @@ public class SearchTests extends BaseTests_Parent_ٍSearch{
     String vaildpassword;
     String invalidemail;
     String invalidpassword;
+    String bluetop;
+    String blue;
 
     @BeforeClass
     public void loadTestData() {
@@ -36,6 +38,11 @@ public class SearchTests extends BaseTests_Parent_ٍSearch{
         vaildpassword=(String) getJsonValueByKey(testDataJsonFile, "vaildpassword");
         invalidemail=(String) getJsonValueByKey(testDataJsonFile, "invalidemail");
         invalidpassword=(String) getJsonValueByKey(testDataJsonFile, "invalidpassword");
+        bluetop=(String) getJsonValueByKey(testDataJsonFile, "bluetop");
+        blue=(String) getJsonValueByKey(testDataJsonFile, "blue");
+
+
+
 
 
     }
@@ -47,7 +54,7 @@ public class SearchTests extends BaseTests_Parent_ٍSearch{
         navigationBarPage.clickProducat();
         SearchPage search = new SearchPage(driver);
         Assert.assertEquals(search.allProducatShown(), allproducts,"ALL PRODUCTS should be shown");
-        search.searchProductbyname("blue top");
+        search.searchProductbyname(bluetop);
         Assert.assertEquals( search.AllSharedDisplayed(), searchedprodut,"SEARCHED PRODUCTS should be shown");
 
 
@@ -59,7 +66,7 @@ public class SearchTests extends BaseTests_Parent_ٍSearch{
         navigationBarPage.clickProducat();
         SearchPage search = new SearchPage(driver);
         Assert.assertEquals(search.allProducatShown(), allproducts,"ALL PRODUCTS should be shown");
-        search.searchProductbyname("blue");
+        search.searchProductbyname(blue);
         search.isKeyWordInProducatTitles(searchitem);
 
     }
@@ -70,7 +77,7 @@ public class SearchTests extends BaseTests_Parent_ٍSearch{
         navigationBarPage.clickProducat();
         SearchPage search = new SearchPage(driver);
         Assert.assertEquals(search.allProducatShown(), allproducts,"ALL PRODUCTS should be shown");
-        search.searchProductbyname("Blue Top");
+        search.searchProductbyname(bluetop);
         Assert.assertEquals(search.SearchItem(),"Blue Top","Blue Top should be shown");
 
     }
