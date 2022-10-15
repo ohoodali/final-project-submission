@@ -1,0 +1,45 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,8 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="8dd4a38a-2280-43f9-9ca8-d1cd29dc03dd" name="Changes" comment="Thrid commit">
+-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AddProductToCardTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AddProductToCardTests.java" afterDir="false" />
++    <list default="true" id="8dd4a38a-2280-43f9-9ca8-d1cd29dc03dd" name="Changes" comment="fourth commit">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -197,7 +197,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1665731050783</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="fourth commit">
++      <created>1665731331821</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1665731331821</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -215,7 +222,8 @@
+     <MESSAGE value="first commit" />
+     <MESSAGE value="Second commit" />
+     <MESSAGE value="Thrid commit" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Thrid commit" />
++    <MESSAGE value="fourth commit" />
++    <option name="LAST_COMMIT_MESSAGE" value="fourth commit" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
