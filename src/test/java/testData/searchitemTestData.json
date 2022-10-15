@@ -1,14 +1,16 @@
 {
-  "searchitem" : "Blue",
+  "searchitem" : "blue",
+  "StylishDress" : "Stylish Dress",
   "allproducts" : "ALL PRODUCTS",
   "searchedprodut" : "SEARCHED PRODUCTS",
   "sizeOfAddedProducts" : "2",
   "firstproduct" : "Men Tshirt",
   "secondproduct" :"Summer White Top",
   "firstprice" : "Rs. 400",
-  "firstquantity": "1",
-  "secondprice": "Rs. 400",
-  "secondtotal" :  "Rs. 400",
+  "firstquantity": "2",
+  "secondprice":"Rs. 400",
+  "secondtotal" :"Rs. 400",
+  "firsttotal" :  "Rs. 800",
   "secondquantity":"1",
   "searchProduct" : "Blue Top",
   "SignupLogin": "Signup / Login",
@@ -16,5 +18,6 @@
  "validemail": "ertr@gmail.com",
   "vaildpassword": "111111",
   "invalidemail": "msohood@gmail.com",
-  "invalidpassword": "111111"
+  "invalidpassword": "111111",
+ "columnumber":"6"
 }

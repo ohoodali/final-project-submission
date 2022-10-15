@@ -2,10 +2,7 @@ package tests;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.HomePage;
-import pages.LoginPage;
 import pages.NavigationBarPage;
 import pages.SearchPage;
 
@@ -24,8 +21,6 @@ public class SearchTests extends BaseTests_Parent_ٍSearch{
     String invalidpassword;
 
 
-
-
     @BeforeClass
     public void loadTestData() {
         String testDataJsonFile = "searchitemTestData.json" ;
@@ -39,26 +34,37 @@ public class SearchTests extends BaseTests_Parent_ٍSearch{
         vaildpassword=(String) getJsonValueByKey(testDataJsonFile, "vaildpassword");
         invalidemail=(String) getJsonValueByKey(testDataJsonFile, "invalidemail");
         invalidpassword=(String) getJsonValueByKey(testDataJsonFile, "invalidpassword");
-
-
-
     }
-
 
     @Test
     public void testSearceProducatWithBlueKeyword ()
     {
-        NavigationBarPage navigationBarPage = new NavigationBarPage(driver);
+        NavigationBarPage navigationBarPage = new NavigationBarPage(driver.get());
         navigationBarPage.clickProducat();
-        SearchPage search = new SearchPage(driver);
+        SearchPage search = new SearchPage(driver.get());
         Assert.assertEquals(search.allProducatShown(), allproducts,"ALL PRODUCTS should be shown");
-        search.searchProductbyname("Blue");
+        search.searchProductbyname(searchProduct);
         Assert.assertEquals( search.AllSharedDisplayed(), searchedprodut,"SEARCHED PRODUCTS should be shown");
+
+
+    }
+    @Test
+    public void testAllRealtedShown ()
+    {
+        NavigationBarPage navigationBarPage = new NavigationBarPage(driver.get());
+        navigationBarPage.clickProducat();
+        SearchPage search = new SearchPage(driver.get());
+        search.searchProductbyname(searchitem);
         search.isKeyWordInProducatTitles(searchitem);
-        //Assert.assertEquals(search.SearchItem(),"Blue Top");
 
-
-
+    }
+    @Test
+    public void testForSeachtopblueByEnter ()
+    {
+        NavigationBarPage navigationBarPage = new NavigationBarPage(driver.get());
+        navigationBarPage.clickProducat();
+        SearchPage search = new SearchPage(driver.get());
+       Assert.assertEquals(search.searchProductbynameThenclickenter(searchProduct),"Blue Top should be shown");
 
     }
 

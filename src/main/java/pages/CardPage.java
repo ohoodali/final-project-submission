@@ -2,8 +2,14 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 public class CardPage extends BasePage {
+
+
+    private By columnnumber = By.xpath("//table[@class=\"table table-condensed\"]/thead/tr/td");
     By allCartRows = By.className("cart_product");
     private By firstproduct = By.xpath("//a[@href=\"/product_details/2\"]");
     private By secondproduct = By.xpath("//a[@href=\"/product_details/6\"]");
@@ -18,10 +24,29 @@ public class CardPage extends BasePage {
     public CardPage(WebDriver driver) {
         super(driver);
     }
+
+   public int getSizeColumnNumber()
+
+   {
+       List<WebElement>headers=locateListOfElement(columnnumber);
+       return locateListOfElement(columnnumber).size();
+   }
+   public boolean getHeardersText(List<String> expectedheaderstest){
+       List<WebElement>headers= locateListOfElement(columnnumber);
+       for(int i=0; i< headers.size();i++)
+       {
+
+           if(headers.get(i).getText()!=expectedheaderstest.get(i)){
+               return false;
+           }
+       }
+return true;
+   }
     public int getSizeOfAddedProducts ()
     {
         return locateListOfElement(allCartRows).size();
     }
+
     public String getFirstProduct()
     {
 
@@ -59,17 +84,16 @@ public class CardPage extends BasePage {
         String secondto= getTextOfElement(secondtotal);
         return secondto;
     }
-    public int getFirstquantity()
+    public String getFirstquantity()
     {
 
-        int firstquintiy= Integer.parseInt(getTextOfElement(firstquantity));
+        String firstquintiy= getTextOfElement(firstquantity);
         return firstquintiy;
     }
 
-    public int getSecondQuantity()
+    public String getSecondQuantity()
     {
-        int  secondquintiy= Integer.parseInt(getTextOfElement(secondquantity));
+        String  secondquintiy= getTextOfElement(secondquantity);
         return secondquintiy;
     }
-
 }

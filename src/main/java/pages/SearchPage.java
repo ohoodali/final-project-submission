@@ -1,6 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -11,7 +12,10 @@ public class SearchPage extends BasePage{
 
     private By searchfiled = By.id("search_product");
     private By searchbutton = By.id("submit_search");
+
     private By searsheditem = By.xpath("//div[@class=\"product-information\"]/h2");
+
+    private By StylishDress = By.cssSelector(".overlay-content>p");
 
     private By allsearcheditem = By.xpath("//h2[@class=\"title text-center\"]");
 
@@ -31,6 +35,13 @@ public class SearchPage extends BasePage{
         clickElement(searchbutton);
         return new SearchPage(driver);
     }
+    public SearchPage searchProductbynameThenclickenter(String searchproduct)
+    {
+        typeOnInputField(searchfiled, searchproduct + Keys.ENTER);
+        return new SearchPage(driver);
+    }
+
+
     public String allProducatShown ()
     {
 

@@ -1,6 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -49,10 +50,7 @@ public class BasePage {
     {
         locateElement(elementLocator).click();
     }
-
-
-
-    public void typeOnInputField (By elementLocator, String text)
+      public void typeOnInputField (By elementLocator, String text)
     {
         locateElement(elementLocator).sendKeys(text);
     }

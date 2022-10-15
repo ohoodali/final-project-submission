@@ -5,8 +5,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pages.HomePage;
 import pages.LoginPage;
-import pages.NavigationBarPage;
-import pages.SearchPage;
 
 import static fileReaderManager.ReadFromFiles.getJsonValueByKey;
 
@@ -32,9 +30,9 @@ public class LoginTest extends BaseTests_Parent_ٍSearch{
     @Test
     public void tesLogin ()
     {
-        HomePage base=new HomePage(driver);
+        HomePage base=new HomePage(driver.get());
         Assert.assertEquals( base.VeryHome(),signupLogin,"The Sigin Sign Out");
-        LoginPage loginpage=new LoginPage(driver);
+        LoginPage loginpage=new LoginPage(driver.get());
         loginpage.clickLogin();
         Assert.assertEquals(loginpage.logintoyouraccountVisible(),logintoyouraccount,"Login to your account Shown");
         //log with valid email and password
